@@ -1,0 +1,178 @@
+
+#box{
+    position: absolute;
+    width: 530px;
+    height: 450px;
+    left: 62px;
+    top: 64px;
+
+    background: #1F2937;
+}
+#header{
+    position: absolute;
+    width: 354px;
+    height: 80px;
+    left: 35px;
+    top: 50px;
+
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+}
+p{
+    position: absolute;
+    width: 372px;
+    height: 28px;
+    left: 35px;
+    top: 140px;
+        
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    
+    color: #D5D4D8;
+}
+#passButton{
+
+    padding: 9px 17px 9px 15px;
+    gap: 12px;
+
+    position: absolute;
+    width: 191px;
+    height: 42px;
+    left: 35px;
+    top: 219px;
+
+    background: #10B981;
+    cursor: pointer;
+    
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 3px rgb(35, 31, 31);
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+#passButton:active {
+    box-shadow: 0 3px rgb(92, 92, 92);
+    transform: translateY(3px);
+  }
+
+#passwordOne{
+    position: absolute;
+    width: 200px;
+    left: 30px;
+    top: 330px;
+    height: 50px;
+
+    font-size:large;
+    font-weight: 500;
+    color: aquamarine;
+
+    background: #273549;
+    border-radius: 6px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    text-align: center;
+
+    padding: 10px 5px 10px 5px;
+    margin: 0;
+}
+#passwordTwo{
+    position: absolute;
+    width: 200px;
+    left: 280px;
+    top: 330px;
+    height: 50px;
+
+    font-size:large;
+    font-weight: 500;
+    color: aquamarine;
+
+    background: #273549;
+    border-radius: 6px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    text-align: center;
+    margin: 0;
+    padding: 10px 5px 10px 5px;
+}
+#line{
+    position: absolute;
+    width: auto;
+    left: 20px;
+    right: 20px;
+    height: 0px;
+    top: 300px;
+
+    margin: 0;
+    border: 1px solid #2F3E53;
+}
+#lengthBox{
+    position: absolute;
+    margin: 0;
+    width: 65px;
+    height: 42px;
+    left: 255px;
+    top: 219px;
+
+    font-size:large;
+    font-weight: 500;
+    color: aquamarine;
+
+    background: #273549;
+    border-radius: 6px;
+    text-align: center;
+}
+#passwordOne:active {
+    box-shadow: 0 1px rgb(92, 92, 92);
+    transform: translateY(2px);
+  }
+#passwordTwo:active {
+    box-shadow: 0 1px rgb(92, 92, 92);
+    transform: translateY(2px);
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: 0;
+    width: auto;
+    height: 42px;
+    left: 370px;
+    top: 215px;
+
+    font-size:large;
+    font-weight: 500;
+    color: aquamarine;
+
+    background: #273549;
+    border-radius: 6px;
+    text-align: center;
+
+    padding: 7px 10px 7px 10px;
+    list-style-type: none;
+
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+
+  
